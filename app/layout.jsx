@@ -1,5 +1,4 @@
 import '@styles/globals.css'
-import { Children } from 'react'
 
 export const metadata = {
   title: "Promptopia",
@@ -11,12 +10,11 @@ const RootLayout = ({ children }) => {
     <html lang='en'>
       <body>
         <div className="main">
-          <div className="gradient">
+          <div className="gradient" />
 
-          </div>
-          <div className="app">
-            {children}
-          </div>
+        </div>
+        <div className="app">
+          {children}
         </div>
       </body>
 
